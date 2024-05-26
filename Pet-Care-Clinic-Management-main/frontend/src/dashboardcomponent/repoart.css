@@ -1,0 +1,39 @@
+.repoart {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.repoart h3 {
+  font-size: 1.5em;
+  color: #626a7f;
+}
+
+.repoart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.repoart th, .repoart td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #d2dad4;
+}
+
+.repoart th {
+  background-color: #3ca75e;
+}
+
+.repoart td {
+  background-color: #fff;
+}
+
+.repoart tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.repoart p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #555;
+}

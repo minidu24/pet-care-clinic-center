@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Table styles */
+table.leaves {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.approve {
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  
+  button.reject {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

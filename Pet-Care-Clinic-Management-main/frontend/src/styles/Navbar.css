@@ -1,0 +1,83 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* nav bar styles 
+* {
+  margin: 0;
+ 
+  color: #333;
+}
+
+
+
+
+
+.navbar {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 10px solid #f2f2f2;
+  font-size: 20px;
+  height:0px;
+  
+}
+.navbar h1 {
+  color: #ffaa00;
+}
+.navbar .links {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+}
+.navbar a {
+  margin-left: 30px;
+  text-decoration: none;
+  padding: 15px;
+}
+.navbar a:hover {
+  color: #ffaa00;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* nav bar styles */
+/* Navbar container styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out the items */
+  padding: 5px 20px; /* Reduced padding */
+  margin-top: 0; /* Removed margin-top */
+  height: 0px; /* Reduced height */
+}
+
+
+/* Peticon styles */
+.peticon {
+  margin-right: 20px; /* Margin to separate from other items */
+  margin-top:2px;
+}
+
+/* Links container styles */
+.links {
+  display: flex;
+  gap: 80px; /* Gap between links */
+}
+
+/* Individual link styles */
+.links a {
+  text-decoration: none; /* Remove underline */
+  color: rgb(60, 16, 216)33333; /* Link color */
+  font-size: 18px; /* Font size */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect on links */
+.links a:hover {
+  color: #ffaa00; /* Change color on hover */
+}
+
+/* Top border below the navbar */
+.top-boarder{
+  margin-top:51px;
+}

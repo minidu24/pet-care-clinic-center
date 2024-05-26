@@ -1,0 +1,53 @@
+/* timeoff.css */
+
+/* Page title */
+.page-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Form label */
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Form input fields */
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Form button */
+.form-button {
+  background-color: #ffd70f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: white;
+}
+
+/* History title */
+.history-title {
+  margin-top: 20px;
+  font-size: 20px;
+}
+h1{
+  font-size:50px;
+}

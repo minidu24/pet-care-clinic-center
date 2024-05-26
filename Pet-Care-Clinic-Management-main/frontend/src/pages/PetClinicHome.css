@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* home  styles */
+
+.petclinichome{
+  display: flex;
+  font-size: 60px;
+  
+  
+}
+.petclinichome .txt1{
+  padding-left: 150px;
+  margin-top: 100px;
+  font-family: 'Salsa', cursive;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+  padding-left: 10px;
+ 
+}
+.petclinichome .txt1 p{ 
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Salsa', cursive;
+}
+
+.petclinichome .txt1 a{ 
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: 'Salsa', cursive;
+}
+/* category styles */
+.topic{
+  margin-top: 10px;
+  font-size: 30px;
+  padding-left: 150px;
+  font-family: 'Salsa', cursive;
+  text-decoration:underline;
+ 
+}
+.box{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+}
+
+.box .rectangle {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  margin-right: 60px;
+  margin-left: 40px;
+  background-image: url('../image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+  
+}
+.rectangle:hover {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  background-color:#ffaa00;
+  background-image: url('../image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+
+}
+
+.box .rectangle2 {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) );
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  margin-right: 60px;
+  background-image: url('../image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+
+}
+
+.rectangle2:hover {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  background-color:#ffaa00;
+  background-image: url('../image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+
+}
+
+
+.box .rectangle3 {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) );
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  margin-right: 60px;
+  background-image: url('../image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+
+}
+.rectangle3:hover {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  background-color:#ffaa00;
+  background-image: url('../image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+
+}
+
+
+.box .rectangle4 {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  background-image: url('../image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+  
+}
+.rectangle4:hover {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  background-color:#ffaa00;
+  background-image: url('../image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+  
+
+}
+
+
+.box .vector{
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+  padding-left: 50px;
+  
+}
+
+.title{
+  padding-left: 10px;
+  padding-top: 110px;
+  text-align: center;
+}
+.content{
+  margin: 0 auto;
+  align-items: center;
+  
+}
+

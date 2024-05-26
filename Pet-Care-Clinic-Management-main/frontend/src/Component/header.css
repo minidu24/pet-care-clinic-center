@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* nav bar styles */
+* {
+  margin: 0;
+ 
+  color: #333;
+}
+
+
+
+
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 20px;
+  background-color: #ffaa00;
+  
+}
+.navbar h1 {
+  color: #ffaa00;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 40px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #ffaa00;
+}

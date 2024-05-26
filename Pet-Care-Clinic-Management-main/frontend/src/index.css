@@ -1,0 +1,628 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.workouts{
+  max-width: 100px;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  ;
+  
+}
+.buy{
+  max-width: 100px;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  1fr;
+  
+}
+
+
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 120px;
+}
+.buyhome {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 120px;
+}
+.workout-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  margin-left:100px ;
+  flex: 0 0 auto;
+    /* Fixed width */
+    min-width: 200px;
+    /* Minimum width */
+    max-width: 300px;
+    /* Maximum width */
+    max-height: 300px;
+}
+.selling-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  margin-left:100px ;
+  flex: 0 0 auto;
+    /* Fixed width */
+    min-width: 200px;
+    /* Minimum width */
+    max-width: 300px;
+    /* Maximum width */
+    
+}
+
+.add-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  margin-left:100px ;
+  margin-right: 100px;
+
+ 
+}
+.add-details button{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 100px;
+
+ 
+}
+.workout-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.selling-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.workout-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.selling-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.workout-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+  margin-top: 250px;
+}
+.selling-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+  margin-top: 250px;
+}
+.selling-details div{
+  display: flex;
+  margin-top: 100px;
+  
+}
+.workout-details button{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+.selling-details button{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0px;
+  
+}
+
+/* new workout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 10px;
+}
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* nav bar styles */
+* {
+  margin: 0;
+ 
+  color: #333;
+}
+
+
+
+
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 20px;
+
+
+  
+}
+.navbar h1 {
+  color: #ffaa00;
+}
+.navbar .links {
+  margin-left: auto;
+  
+}
+.navbar a {
+  margin-left: 40px;
+  text-decoration: none;
+  padding: 6px;
+ 
+}
+.navbar a:hover {
+  color: #ffaa00;
+}
+.links{
+  margin-right: 20px;
+  padding-left: 50px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.loglinks{
+  background-size: auto;
+}
+
+
+
+/* -------------------------footer styles------------------------- */
+.t1{
+ 
+  margin-right:   80px;
+  margin-left: 130px;
+ 
+}
+.footer {
+  padding: 20px;
+  display: flex;
+  
+  max-width: 5000px;
+  margin: 0 auto;
+ 
+  font-family: 'Salsa', cursive;
+  background-color:#fdeded;
+}
+
+.top-boarder{
+  height: 3px;
+  width: 1450px;
+  background-color: #060605;
+  border-radius: 12px;
+  margin-left: 15px;  
+}
+.footer h1 {
+  color: #ffaa00;
+}
+.footer .links {
+  margin-left: auto;
+}
+.footer a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.fotcontent h2{
+  margin-left: 50px;
+  margin-right: 50px;
+ 
+}
+
+.fotcontent hr{
+  width: 200px;
+  height: 5px;
+  background-color: #0b0b0a;
+  border-radius: 5px;
+  
+}
+
+
+.fotcontent ul{
+  margin-left: -170px;
+  list-style-type: none;
+  
+}
+
+.fotcontent ul li{
+  margin-bottom: 8px;
+  margin-top: 8px;
+ 
+  padding-left: 190px;
+}
+.fotcontent .contact{
+  display: flex;
+  
+}
+.fotcontent img{
+  width: 60px;
+  height: 60px;
+  margin-left: 50px;
+}
+.fotcontent .contact h3{
+  margin-top: 13px;
+ 
+}
+
+.fotcontent .question
+{
+  padding-left: -100px;
+  
+}
+.phone{
+  display: flex;
+}
+.numb{
+  margin-top: 20px;
+}
+
+.fotcontent .fotcontent-container{
+  margin-bottom: 10px;
+  
+
+}
+.hr{
+  background-color: #fafafaec;
+  
+}
+.follow{
+  margin-bottom: 140px;
+}
+.question{
+margin-bottom: 70px;
+}
+.quest{
+margin-top: 40px;
+
+}
+
+
+.fotcontent  .question{
+margin-right: 100px;
+}
+
+/*pet icon*/
+
+.label{
+    
+  padding-left: -50px;
+  padding-top: -20px;
+}
+
+.petshopicon{
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+.label {
+  height: 46px;
+  width: 142px;
+  font-family: 'Salsa', cursive;
+}
+
+.label .pupIcon{
+  height: 70px;
+  width: 70px;
+  display: flex;
+  
+}
+
+.label .puphub {
+  color: transparent;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  padding-left: 70px;
+  margin-top: -45px;
+  top: 0;
+  width: 142px;
+  
+}
+
+.label .text-wrapper {
+  color: #ffaa00;
+}
+
+.label .span {
+  color: #ffe55d;
+}
+
+/* category styles */
+.topic{
+  margin-top: 10px;
+  font-size: 30px;
+  padding-left: 180px;
+  font-family: 'Salsa', cursive;
+  text-decoration:underline;
+ 
+}
+.boxplots{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom:40px ;
+}
+
+
+
+.boxplots .rectangle3 {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) );
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  margin-right: 60px;
+  background-image: url('./image/dogitems.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  padding-bottom: 20px;
+  background-position-y: -55px;
+
+}
+.rectangle3:hover {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  background-color:#ffaa00;
+  background-image: url('./image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+
+}
+
+
+.boxplots .rectangle4 {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  background-image: url('./image/catitems.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: -35px;
+  padding-bottom: 20px;
+  
+}
+.rectangle4:hover {
+  background: linear-gradient(180deg, rgb(249.05, 255, 253.88) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: #97f2e1;
+  border-radius: 25px;
+  box-shadow: 0px 4px 74px #c7e7e145;
+  height: 225px;
+  width: 200px;
+  font-size: 30px;
+  background-color:#ffaa00;
+  background-image: url('./image/pawprint.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: 20px;
+
+
+}
+
+
+.boxplots .vector{
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+  padding-left: 50px;
+  
+}
+
+.servicetitle{
+  padding-left: 40px;
+  padding-top: 200px;
+}
+.content{
+  margin: 0 auto;
+  align-items: center;
+  
+}
+
+.veiwbtn{
+  margin-left: 900px;
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*pet Adds*/
+
+.Add-details{
+  display: flex;
+  background-color: #ffffff;
+}
+
+select{
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'poppins';
+}
+
+.addtable{
+  border: 3px solid black;
+  border-collapse: collapse;
+
+  width: 1000px;
+  text-align: center;
+}
+
+.genarateReport{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 100px;
+  width: 100px;
+  margin-bottom: 50px;
+  font-size: large;
+
+}
+.Adminbtn{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  
+}
